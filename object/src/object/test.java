@@ -10,7 +10,6 @@ public class test {
 	taro.phoneNumber ="111-111";
 	taro.address="111111111";
 	
-	
 	System.out.println(taro.name);
 	System.out.println(taro.age);
 	System.out.println(taro.phoneNumber);
@@ -20,15 +19,13 @@ public class test {
 	taro.run();
 	
 	
+	
+	
 	Person jiro = new Person();
 	jiro.name ="木村次郎";
 	jiro.age =18;
 	jiro.phoneNumber ="222-222";
 	jiro.address="22222222";
-	
-	
-	
-	
 	
 	System.out.println(jiro.name);
 	System.out.println(jiro.age);
@@ -47,9 +44,6 @@ public class test {
 	hanako.phoneNumber ="333-333";
 	hanako.address="333333333";
 	
-	
-	
-	
 	System.out.println(hanako.name);
 	System.out.println(hanako.age);
 	System.out.println(hanako.phoneNumber);
@@ -61,22 +55,19 @@ public class test {
 	
 	
 	
-	Person shuntaro = new Person();
-	shuntaro.name ="二村俊太郎";
-	shuntaro.age =29;
-	shuntaro.phoneNumber ="444-444";
-	shuntaro.address ="44444444444";
+	Person saburo = new Person();
+	saburo.name ="田中三郎";
+    saburo.age =29;
+	saburo.phoneNumber ="444-444";
+	saburo.address ="44444444444";
 	
-	
-	
-	
-	System.out.println(shuntaro.name);
-	System.out.println(shuntaro.age);
-	System.out.println(shuntaro.phoneNumber);
-	System.out.println(shuntaro.address);
-	shuntaro.talk();
-	shuntaro.walk();
-	shuntaro.run();
+	System.out.println(saburo.name);
+	System.out.println(saburo.age);
+	System.out.println(saburo.phoneNumber);
+	System.out.println(saburo.address);
+	saburo.talk();
+	saburo.walk();
+	saburo.run();
 	
 	
 	

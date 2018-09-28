@@ -1,7 +1,6 @@
 package jp.co.internous.action;
 
-public class SmartPhone extends Mp3Player{
-	
+public class SmartPhone extends Phone implements Mp3Player, NewFunction{
 	
 	public void play(){
 		System.out.println("再生(ハイレゾ機能)");
@@ -26,6 +25,9 @@ public class SmartPhone extends Mp3Player{
 		}
 		public void internet(){
 		System.out.println("インターネット");
+	
 		}
 
+	
+	
 }

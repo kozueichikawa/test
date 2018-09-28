@@ -6,8 +6,8 @@ public class Person {
 	public Person(){}
 
 	public Person(String name,int age){
-		this.name=name;
-	   this.age=age;
+	this.name=name;
+	this.age=age;
 	}
 
 	public Person(String name){
@@ -17,14 +17,14 @@ public class Person {
 
 
 	public Person(int age){
-		this.name = "名前なし";
-		this.age = age;
+    this.name = "名前なし";
+    this.age = age;
 		}
 
 
 	public Person(int age, String name){
-		this.name = name;
-		this.age = age;
+	this.name = name;
+	this.age = age;
 
 	}
 	}
