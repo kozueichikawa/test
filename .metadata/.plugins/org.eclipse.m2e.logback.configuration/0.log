@@ -292,3 +292,11 @@ java.net.ConnectException: Connection timed out: connect
 2018-10-11 13:06:46,243 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
 2018-10-11 13:10:35,437 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
 2018-10-11 15:46:27,176 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2018-10-11 17:57:10,132 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2018-10-11 17:57:18,630 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @147367ms
+2018-10-11 17:57:18,897 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2018-10-11 17:57:18,955 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@63a9ab7d{/wse,null,AVAILABLE}
+2018-10-11 17:57:18,989 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@49dce561{HTTP/1.1}{0.0.0.0:50880}
+2018-10-11 17:57:18,990 [main] INFO  org.eclipse.jetty.server.Server - Started @147727ms
+2018-10-11 17:57:49,026 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@49dce561{HTTP/1.1}{0.0.0.0:0}
+2018-10-11 17:57:49,052 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@63a9ab7d{/wse,null,UNAVAILABLE}
