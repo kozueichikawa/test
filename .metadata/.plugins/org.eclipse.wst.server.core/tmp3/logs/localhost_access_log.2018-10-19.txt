@@ -21,3 +21,8 @@
 0:0:0:0:0:0:0:1 - - [19/Oct/2018:15:34:33 +0900] "POST /template/UserCreateConfirmAction.action HTTP/1.1" 200 1981
 0:0:0:0:0:0:0:1 - - [19/Oct/2018:15:34:35 +0900] "POST /template/UserCreateCompleteAction.action HTTP/1.1" 200 1394
 0:0:0:0:0:0:0:1 - - [19/Oct/2018:15:34:36 +0900] "GET /template/HomeAction.action HTTP/1.1" 200 1980
+127.0.0.1 - - [19/Oct/2018:17:22:19 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [19/Oct/2018:17:22:20 +0900] "GET /template2/home.jsp HTTP/1.1" 200 1653
+0:0:0:0:0:0:0:1 - - [19/Oct/2018:17:22:24 +0900] "POST /template2/HomeAction;jsessionid=206B4F8CF034CD147A3FA1633105FE4C HTTP/1.1" 200 3439
+0:0:0:0:0:0:0:1 - - [19/Oct/2018:17:23:14 +0900] "GET /template2/home.jsp HTTP/1.1" 200 1652
+0:0:0:0:0:0:0:1 - - [19/Oct/2018:17:24:08 +0900] "GET /template2/home.jsp HTTP/1.1" 200 1477
