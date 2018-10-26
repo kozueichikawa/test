@@ -13,7 +13,7 @@ pageEncoding="UTF-8"%>
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<title>buyItem画面</title>
+<title>BuyItem画面</title>
 <style type="text/css">
 /* ========TAG LAYOUT======== */
 body {
@@ -29,7 +29,9 @@ background:#fff;
 table {
 text-align:center;
 margin:0 auto;
+
 }
+
 /* ========ID LAYOUT======== */
 #top {
 width:780px;
@@ -45,12 +47,12 @@ background-color: black;
 width: 100%;
 height: 500px;
 text-align: center;
-}
-#footer {
+}#footer {
 width: 100%;
 height: 80px;
 background-color: black;
 clear:both;
+
 }
 </style>
 
@@ -82,7 +84,7 @@ clear:both;
 </td>
 <td>
 
-<s:property value="session.buyItem_name" />
+<s:property value="session.buyItem_name" /><br>
 
 </td>
 
@@ -95,9 +97,8 @@ clear:both;
 
 </td>
 <td>
-<s:property value="session.buyItem_price" />
 
-<span>円</span>
+<s:property value="session.buyItem_price" /><span>円</span>
 
 </td>
 
@@ -106,14 +107,14 @@ clear:both;
 
 <td>
 
-<span>在庫</span>
+<span>購入個数</span>
 
 </td>
 <td>
 
-<select name="stock">
-<option value="1" selected="selected">1</option>
+<select name="count">
 
+<option value="1" selected="selected">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
 <option value="4">4</option>
@@ -134,39 +135,31 @@ clear:both;
 <td>
 
 <input type="radio" name="pay" value="1" checked="checked">現金払い
-
 <input type="radio" name="pay" value="2">クレジットカード
 
 </td>
 
 </tr>
 <tr>
+
 <td>
 
-<s:submit value="購入" />
+<s:submit value="購入"/>
 
 </td>
 
 </tr>
 </table>
-
 </s:form>
 <div>
-
-<span>前画面に戻る場合は</span>
-<a href='<s:url action="HomeAction" />'>こちら</a>
-
+<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+<p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
 </div>
-
 </div>
-
 </div>
 <div id="footer">
-
 <div id="pr">
 </div>
-
 </div>
-
 </body>
 </html>

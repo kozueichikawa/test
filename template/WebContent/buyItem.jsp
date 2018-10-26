@@ -157,7 +157,7 @@ checked="checked">現金払い
 
 <span>前画面に戻る場合は</span>
 <a href='<s:url action="HomeAction" />'>こちら</a>
-
+<p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
 </div>
 
 </div>

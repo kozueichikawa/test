@@ -53,6 +53,16 @@ background-color: black;
 clear:both;
 }
 </style>
+<script type="text/javascript">
+
+function submitAction(url) {
+
+$('form').attr('action', url);
+$('form').submit();
+
+}
+</script>
+
 
 </head>
 <body>
