@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-
-pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
@@ -16,6 +14,7 @@ pageEncoding="UTF-8"%>
 <title>BuyItem画面</title>
 <style type="text/css">
 /* ========TAG LAYOUT======== */
+
 body {
 margin:0;
 padding:0;
@@ -29,9 +28,7 @@ background:#fff;
 table {
 text-align:center;
 margin:0 auto;
-
 }
-
 /* ========ID LAYOUT======== */
 #top {
 width:780px;
@@ -47,18 +44,17 @@ background-color: black;
 width: 100%;
 height: 500px;
 text-align: center;
-}#footer {
+}
+#footer {
 width: 100%;
 height: 80px;
 background-color: black;
 clear:both;
-
 }
 </style>
 
 </head>
 <body>
-
 <div id="header">
 
 <div id="pr">
@@ -72,8 +68,8 @@ clear:both;
 
 </div>
 <div>
-<s:form action="BuyItemAction">
 
+<s:form action="BuyItemAction">
 <table>
 <tr>
 
@@ -111,7 +107,6 @@ clear:both;
 
 </td>
 <td>
-
 <select name="count">
 
 <option value="1" selected="selected">1</option>
@@ -135,6 +130,7 @@ clear:both;
 <td>
 
 <input type="radio" name="pay" value="1" checked="checked">現金払い
+
 <input type="radio" name="pay" value="2">クレジットカード
 
 </td>
@@ -150,16 +146,25 @@ clear:both;
 
 </tr>
 </table>
+
 </s:form>
 <div>
+
 <p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+
 <p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
+
 </div>
+
 </div>
+
 </div>
 <div id="footer">
+
 <div id="pr">
 </div>
+
 </div>
+
 </body>
 </html>

@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-
-pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
@@ -33,7 +31,6 @@ margin:0 auto;
 }
 
 /* ========ID LAYOUT======== */
-
 #top {
 width:780px;
 margin:30px auto;
@@ -49,6 +46,8 @@ width: 100%;
 height: 500px;
 text-align: center;
 }
+
+
 #footer {
 width: 100%;
 height: 80px;
@@ -72,6 +71,7 @@ text-align: right;
 </div>
 
 </div>
+
 <div id="main">
 
 <div id="top">
